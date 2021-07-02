@@ -9,10 +9,7 @@ body
     display: none;
 }
 
-#logo
-{
-    padding-top: 30px;
-}
+
 /* Alignements des éléments de nav et le logo */
 
 nav
@@ -105,21 +102,41 @@ nav a
     font-weight: 900;
 }
 
+/* Mise en forme de la présentation de la page et de son auteur */
+
+.presentations
+{
+	background-color: #d3d3d3;
+	font-size: 1.2em;
+	text-align: center;
+	color: #0035fc;
+}
+.article
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #baf370;
+	padding: 30px 20px 20px 30px;
+	font-size: 1.5em;
+	color: #0035fc;
+}
+
 							/* Image avec texte en dessous */
 
 
-/* Je donne la dimension, couleur, marge ext. et int., de mon élément */
+/* Je donne la dimension, couleur, marge ext. et int., et une ombre de mon élément */
 
 .voiture 
 {
-    flex-wrap: wrap; 
-    width: 29%;
+    width: 30%;
     background-color: #d8c888;
-    margin: 20px 12px;
     border: 2px solid #000000;
     border-radius: 20px ; 
     padding: 5px; 
-    margin: 50px 100px;     
+    margin: 20px; 
+	box-shadow:10px 10px 10px #6d5d41;   
 }
 
 
@@ -138,21 +155,21 @@ nav a
 
 .voiture p
 {
-	font-size: 1.2em;
-	margin-left:  20px;
+	font-size: 1.1em;
+	margin: 10px 0 10px 20px;
 }
 
 /* Je fais pareil avec mon titre */
 
 .voiture h3
 {
-	font-size: 1.5em;
-	margin-left:  20px;
+	font-size: 1.2em;
+	margin: 10px 0 10px 20px;
 }
 
 /* et la même à mes étoiles */
 .star
 {
-	font-size: 1.2em;
-	margin-left:  20px;
+	font-size: 1.1em;
+	margin: 10px 0 10px 20px;
 }
