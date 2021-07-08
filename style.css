@@ -4,11 +4,6 @@ body
 }
 
  
-.mobile
-{
-    display: none;
-}
-
 
 /* Alignements des éléments de nav et le logo */
 
@@ -102,6 +97,74 @@ nav a
     font-weight: 900;
 }
 
+
+/* Nav Mobile */
+
+.mobile
+    {
+    display: contents;
+    }
+    .mobile
+    {
+        display: contents;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+        /*  formatting logo and "register" link*/
+
+    #first-line
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;      
+    }
+    /* Removal of underline link s*/
+
+    .mobile a
+    {
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    /* formatting of the elements "accommodation and "activities"*/
+
+    #second-line 
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sign-up-mob
+    {
+        color: #0065fc;
+    }
+
+    #accomodations-link
+    {
+        padding: 0 70px 0 70px;
+        color: #0065fc;
+    }
+
+    #activities-link
+    {
+        padding: 0 70px 0 70px;
+        color: #585656;
+    }
+  
+     .overline-accomodations-mob, .overline-activities-mob
+     {
+         height: 2px;
+         background-color: #f2f2f2;
+         margin-top: 10px;
+     }
+
+    .overline-accomodations-mob 
+    {
+        background-color: #0065fc; 
+    }
+
 /* Mise en forme de la présentation de la page et de son auteur */
 
 .presentations
@@ -117,7 +180,7 @@ nav a
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #baf370;
+	background-color: #e3e6e0;
 	padding: 30px 20px 20px 30px;
 	font-size: 1.5em;
 	color: #0035fc;
